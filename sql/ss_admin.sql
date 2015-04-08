@@ -8,7 +8,7 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 DROP TABLE IF EXISTS `ss_admin`;
 CREATE TABLE `ss_admin` (
   `uid` int(11) NOT NULL AUTO_INCREMENT,
-  `admin_name` varchar(128) CHARACTER SET utf8mb4 NOT NULL,
+  `admin_name` varchar(128) CHARACTER SET utf8 NOT NULL,
   `email` varchar(32) NOT NULL,
   `pass` varchar(32) NOT NULL,
   PRIMARY KEY (`uid`)
